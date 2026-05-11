@@ -34,7 +34,7 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.siteURL,
-	base: "/school-photo-studio/",
+	base: "/",
 	trailingSlash: "always",
 
 	output: "static",
